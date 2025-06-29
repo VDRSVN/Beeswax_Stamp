@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Beeswax_Stamp – 3D Viewer</title>
+
+  <!-- Voyager runtime -->
+  <script src="https://cdn.jsdelivr.net/npm/@smithsonian/dpo-voyager/dist/voyager-story.min.js"></script>
+  <link  rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/@smithsonian/dpo-voyager/dist/voyager-story.min.css">
+
+  <style>
+    /* make the viewer fill the window */
+    html,body{margin:0;height:100%;overflow:hidden;}
+  </style>
+</head>
+<body>
+
+  <!-- 3D VIEWER -->
+  <voyager-story
+       style="display:block;height:100vh"
+       mode="standalone"
+       root="./"                   <!-- where scene.svx.json lives -->
+       document="scene.svx.json"   <!-- change if you kept a different name -->
+       resourceRoot="./assets/"    <!-- finds logo-full.svg etc. -->
+       bgcolor="white"
+       bgstyle="Solid"
+       uiMode="menu|title">
+  </voyager-story>
+
+</body>
+</html>

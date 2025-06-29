@@ -1,0 +1,501 @@
+{
+  "asset": {
+    "type": "application/si-dpo-3d.document+json",
+    "version": "1.0",
+    "generator": "Voyager",
+    "copyright": "VDRS"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "units": "mm",
+      "nodes": [
+        0,
+        1,
+        6
+      ],
+      "meta": 0,
+      "setup": 0,
+      "name": "Beeswax_Stamp"
+    }
+  ],
+  "nodes": [
+    {
+      "translation": [
+        -4.4681584,
+        1.0883622,
+        8.0359449
+      ],
+      "rotation": [
+        -0.038526,
+        -0.2498722,
+        -0.0099503,
+        0.9674609
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "name": "Camera",
+      "camera": 0
+    },
+    {
+      "name": "Lights",
+      "children": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "translation": [
+        -2.7710996,
+        3.033973,
+        5.1097937
+      ],
+      "rotation": [
+        0.4829741,
+        -0.1070728,
+        0.1880998,
+        0.8484633
+      ],
+      "scale": [
+        1.0928299,
+        1.0928299,
+        1.0928299
+      ],
+      "name": "Key",
+      "light": 0
+    },
+    {
+      "translation": [
+        4.9933912,
+        2.9520956,
+        3.0569842
+      ],
+      "rotation": [
+        0.3546969,
+        0.163893,
+        -0.3861077,
+        0.8356136
+      ],
+      "scale": [
+        1.0928299,
+        1.0928299,
+        1.0928299
+      ],
+      "name": "Fill #1",
+      "light": 1
+    },
+    {
+      "translation": [
+        -3.826268,
+        -5.0036891,
+        1.8211935
+      ],
+      "rotation": [
+        0.9374013,
+        -0.3018693,
+        0.0532277,
+        0.1652891
+      ],
+      "scale": [
+        1.0928299,
+        1.0928299,
+        1.0928299
+      ],
+      "name": "Fill #2",
+      "light": 2
+    },
+    {
+      "translation": [
+        5.6955986,
+        0.3395829,
+        -3.2309158
+      ],
+      "rotation": [
+        0.373256,
+        0.6426073,
+        -0.5786063,
+        0.3360813
+      ],
+      "scale": [
+        1.0928299,
+        1.0928299,
+        1.0928299
+      ],
+      "name": "Rim",
+      "light": 3
+    },
+    {
+      "name": "stamp_02",
+      "model": 0
+    }
+  ],
+  "cameras": [
+    {
+      "type": "perspective",
+      "perspective": {
+        "yfov": 52,
+        "znear": 0.0534866,
+        "zfar": 53.4865803
+      },
+      "autoNearFar": true
+    }
+  ],
+  "lights": [
+    {
+      "color": [
+        1,
+        0.95,
+        0.9
+      ],
+      "intensity": 1,
+      "type": "directional",
+      "shadowEnabled": true,
+      "shadowSize": 10.9282987
+    },
+    {
+      "color": [
+        0.9,
+        0.95,
+        1
+      ],
+      "intensity": 0.7,
+      "type": "directional",
+      "shadowEnabled": true,
+      "shadowSize": 10.9282987
+    },
+    {
+      "color": [
+        0.8,
+        0.85,
+        1
+      ],
+      "intensity": 0.5,
+      "type": "directional"
+    },
+    {
+      "color": [
+        0.85,
+        0.9078313,
+        1
+      ],
+      "intensity": 0.6,
+      "type": "directional"
+    }
+  ],
+  "models": [
+    {
+      "units": "cm",
+      "translation": [
+        -0.0118479,
+        -0.0686473,
+        -0.0114164
+      ],
+      "rotation": [
+        0.0490519,
+        0.2036018,
+        0.0102141,
+        0.9777709
+      ],
+      "boundingBox": {
+        "min": [
+          -0.2122442,
+          0.0098019,
+          -0.3596552
+        ],
+        "max": [
+          0.182334,
+          0.2289593,
+          0.3531152
+        ]
+      },
+      "derivatives": [
+        {
+          "usage": "Web3D",
+          "quality": "Highest",
+          "assets": [
+            {
+              "uri": "stamp_02.glb",
+              "type": "Model",
+              "mimeType": "model/gltf-binary"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "gz2PlNrF6Q1Y",
+          "titles": {
+            "EN": "A Traditional Beeswax Pattern"
+          },
+          "leads": {
+            "EN": "insert text here"
+          },
+          "imageUri": "articles/Image2@120x.png",
+          "viewId": "Z8sU3q",
+          "style": "Extended",
+          "position": [
+            0.0579548,
+            -0.0472981,
+            0.3319881
+          ],
+          "direction": [
+            0.10348,
+            -0.13459,
+            0.9854833
+          ],
+          "scale": 0.0273207,
+          "color": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "YSADlTsK2SMY",
+          "titles": {
+            "EN": "Artisans Imprints"
+          },
+          "leads": {
+            "EN": "insert text here"
+          },
+          "imageUri": "articles/Image2@120x.png",
+          "style": "Extended",
+          "position": [
+            0.0475735,
+            0.1191964,
+            0.1790804
+          ],
+          "direction": [
+            0.2281703,
+            0.9736183,
+            0.0024014
+          ],
+          "scale": 0.0273207,
+          "color": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "xorRfG0g9PNW",
+          "titles": {
+            "EN": "Stories Of The Artisans"
+          },
+          "leads": {
+            "EN": "insert text here"
+          },
+          "imageUri": "articles/Image2@120x.png",
+          "style": "Extended",
+          "position": [
+            -0.0970204,
+            0.0329544,
+            0.1147703
+          ],
+          "direction": [
+            -0.9992987,
+            -0.0337377,
+            -0.0162452
+          ],
+          "scale": 0.0273207,
+          "color": [
+            1,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "metas": [
+    {
+      "collection": {
+        "titles": {
+          "EN": "Beeswax_Stamp"
+        },
+        "intros": {
+          "EN": ""
+        }
+      }
+    }
+  ],
+  "setups": [
+    {
+      "units": "cm",
+      "interface": {
+        "visible": true,
+        "logo": true,
+        "menu": true,
+        "tools": true
+      },
+      "viewer": {
+        "shader": "Default",
+        "exposure": 1,
+        "gamma": 2,
+        "annotationsVisible": false
+      },
+      "reader": {
+        "enabled": false,
+        "position": "Overlay"
+      },
+      "navigation": {
+        "type": "Orbit",
+        "enabled": true,
+        "autoZoom": true,
+        "lightsFollowCamera": true,
+        "autoRotation": false,
+        "orbit": {
+          "orbit": [
+            -24,
+            -26,
+            0
+          ],
+          "offset": [
+            0,
+            0,
+            150
+          ],
+          "minOrbit": [
+            -90,
+            null,
+            null
+          ],
+          "maxOrbit": [
+            90,
+            null,
+            null
+          ],
+          "minOffset": [
+            null,
+            null,
+            0.1
+          ],
+          "maxOffset": [
+            null,
+            null,
+            10000
+          ]
+        }
+      },
+      "background": {
+        "style": "Solid",
+        "color0": [
+          1,
+          1,
+          1
+        ],
+        "color1": [
+          1,
+          1,
+          1
+        ]
+      },
+      "floor": {
+        "visible": false,
+        "position": [
+          0,
+          -25,
+          0
+        ],
+        "size": 50,
+        "color": [
+          0.6,
+          0.75,
+          0.8
+        ],
+        "opacity": 0.5,
+        "receiveShadow": false
+      },
+      "grid": {
+        "visible": false,
+        "color": [
+          0.5,
+          0.7,
+          0.8
+        ]
+      },
+      "tape": {
+        "enabled": false,
+        "startPosition": [
+          0,
+          0,
+          0
+        ],
+        "startDirection": [
+          0,
+          0,
+          0
+        ],
+        "endPosition": [
+          0,
+          0,
+          0
+        ],
+        "endDirection": [
+          0,
+          0,
+          0
+        ]
+      },
+      "slicer": {
+        "enabled": false,
+        "axis": "X",
+        "inverted": false,
+        "position": 0.5
+      },
+      "snapshots": {
+        "features": [
+          "reader",
+          "viewer",
+          "navigation"
+        ],
+        "targets": [
+          "scenes/0/setup/reader/enabled",
+          "scenes/0/setup/reader/position",
+          "scenes/0/setup/reader/articleId",
+          "scenes/0/setup/viewer/annotationsVisible",
+          "scenes/0/setup/viewer/activeAnnotation",
+          "scenes/0/setup/viewer/activeTags",
+          "scenes/0/setup/viewer/shader",
+          "scenes/0/setup/viewer/variant",
+          "scenes/0/setup/viewer/exposure",
+          "scenes/0/setup/navigation/orbit",
+          "scenes/0/setup/navigation/offset"
+        ],
+        "states": [
+          {
+            "id": "Z8sU3q",
+            "values": [
+              null,
+              null,
+              null,
+              null,
+              "gz2PlNrF6Q1Y",
+              null,
+              null,
+              null,
+              null,
+              [
+                -0.6861893,
+                339.1618182,
+                0
+              ],
+              [
+                -0.0179203,
+                0.3537855,
+                6.0298799
+              ]
+            ],
+            "curve": "EaseOutQuad",
+            "duration": 1.1924866
+          }
+        ]
+      }
+    }
+  ]
+}

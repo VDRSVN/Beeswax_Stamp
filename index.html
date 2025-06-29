@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <title>Beeswax_Stamp – 3D Viewer</title>
 
-  <!-- Voyager runtime (Story) -->
-  <script src="https://3d-api.si.edu/resources/js/voyager-story.min.js"></script>
+  <!-- Voyager Explorer runtime -->
+  <script src="https://3d-api.si.edu/resources/js/voyager-explorer.min.js"></script>
   <link  rel="stylesheet"
-        href="https://3d-api.si.edu/resources/css/voyager-story.min.css">
+        href="https://3d-api.si.edu/resources/css/voyager-explorer.min.css">
 
-  <!-- (optional) Voyager web fonts -->
-  <link  rel="stylesheet"
+  <!-- optional web fonts (keeps UI pretty) -->
+  <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/smithsonian/dpo-voyager@latest/assets/fonts/fonts.css">
 
   <style>
@@ -19,16 +19,15 @@
 </head>
 <body>
 
-  <voyager-story
+  <voyager-explorer
        style="display:block;height:100vh"
-       mode="standalone"
        root="./"
        document="scene.svx.json"
        resourceRoot="./assets/"
        bgcolor="white"
        bgstyle="Solid"
        uiMode="menu|title">
-  </voyager-story>
+  </voyager-explorer>
 
 </body>
 </html>

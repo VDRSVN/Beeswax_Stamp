@@ -14,71 +14,40 @@
         href="https://cdn.jsdelivr.net/gh/smithsonian/dpo-voyager@latest/assets/fonts/fonts.css">
 
   <style>
-    /* =========================================
-       GLOBAL RESET
-    ========================================= */
     html,body{margin:0;height:100%;overflow:hidden;}
-
-    /* =========================================
-       1. TOOLBAR POSITION  (center-left)
-    ========================================= */
     voyager-explorer .icon-bar{
-      top:50% !important;               /* vertical center */
+      top:50% !important;
       transform:translateY(-50%) !important;
     }
-
-    /* =========================================
-       2. BUTTON COLORS & BACKGROUND
-    ========================================= */
-    /* default button background */
     voyager-explorer .icon-bar button{
-      background:#000 !important;       /* black */
+      background:#000 !important;
       border:none !important;
     }
-    /* selected / hover state in bright red */
     voyager-explorer .icon-bar button.selected,
     voyager-explorer .icon-bar button:hover,
     voyager-explorer .toolbox .tab.selected,
     voyager-explorer .toolbox .tab:hover{
       background:#ff0000 !important;
     }
-
-    /* slice slider handle + range in red */
     voyager-explorer .ui-slider-handle,
     voyager-explorer .ui-slider-range{
       background:#ff0000 !important;
       border-color:#ff0000 !important;
     }
-
-    /* =========================================
-       3. HIDE SHARE ICON
-    ========================================= */
     voyager-explorer .icon-bar .share-btn{
       display:none !important;
     }
-
-    /* =========================================
-       4. CUSTOM WRENCH ICON (Settings)
-       Put your replacement SVG at:
-       assets/icons/wrench-red.svg
-    ========================================= */
     voyager-explorer .icon-bar .tools-btn{
       background-image:url('./assets/icons/wrench-red.svg') !important;
-      background-size:60% !important;   /* tweak as needed */
+      background-size:60% !important;
       background-position:center !important;
       background-repeat:no-repeat !important;
     }
-
-    /* =========================================
-       5. HIDE XRAY / NORMALS / WIREFRAME MODES
-    ========================================= */
     voyager-explorer .material .xray-btn,
     voyager-explorer .material .normals-btn,
     voyager-explorer .material .wireframe-btn{
       display:none !important;
     }
-
-    /* Entire Environment tab gone */
     voyager-explorer .toolbox .environment{
       display:none !important;
     }
